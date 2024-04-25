@@ -1,0 +1,84 @@
+.restaurant-list-container {
+  /* Add appropriate margin and padding */
+  margin: 20px;
+  padding: 20px;
+  /* Add a background color for better contrast */
+  background-color: #f7f7f7;
+}
+
+.restaurant-list {
+  /* Remove default list styles */
+  list-style: none;
+  padding: 0;
+}
+
+.restaurant-item {
+  /* Add spacing between restaurant items */
+  margin-bottom: 20px;
+}
+
+.restaurant-image-container {
+  /* Add appropriate dimensions to the image container */
+  width: 200px;
+  height: 150px;
+}
+
+.imageRestaurant {
+  /* Make the image responsive and fill its container */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Add alt text for screen readers */
+}
+
+.restaurant-content {
+  /* Add appropriate spacing */
+  margin-left: 10px;
+}
+
+.reserve-button-container {
+  /* Add appropriate spacing */
+  margin-top: 10px;
+}
+
+.button {
+  /* Add appropriate styles for a button */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  /* Add hover effect */
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Improve heading hierarchy */
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+/* Add appropriate spacing for paragraphs */
+p {
+  margin-top: 5px;
+}
+
+/* Improve contrast for accessibility */
+.restaurant-list-container,
+.restaurant-item,
+.restaurant-content,
+.reserve-button-container,
+.button {
+  color: #000;
+}
+
+.restaurant-list-container {
+  background-color: #fff;
+}
